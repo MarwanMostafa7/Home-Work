@@ -1,7 +1,6 @@
 void main() {
   double tempCtoF = convertTemperature(100, 'C');
-  print("100°C = ${tempCtoF(20, 'c')}°C");
-  // convertTemperature(32, 'F');
+  print("100°C = $tempCtoF°C");
   print("32°F = ${(32, 'F')}°C");
 }
 
